@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>GeRI - Sistema de Gerenciamento de Relações Internacionais</title>
+
+        <meta name="description" content="Sistema de Gerenciamento de Relações Internacionais">
+        <meta name="author" content="Pedro Clarindo da Silva Neto">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+
+
+    </head>
+    <body>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="navbar-toggler-icon"></span>
+                        </button> 
+
+                        <a class="navbar-brand" href="#">GeRI</a>
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                     <a class="nav-link" href="cadastroIntercambio.html">Cadastro de Intercâmbio </a>
+                                </li>
+
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Cadastro de Intercambista <span class="sr-only">(current)</span></a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="cadastroHostfamily.html">Cadastro de Host Family</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="cadastroEmbaixador.html">Cadastro de Embaixador</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="cadastroInstituicaoOrigem.html">Cadastro da Instituição de Origem</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="cadastroCursoInstituicaoOrigem.html">Cadastro do Curso Instituição de Origem</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="cadastroCursoIfmt.html">Cadastro do Curso IFMT</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </nav>
+
+                    <div class="page-header">
+                        <h1>
+                            <small> Cadastro de Intercambista</small>
+                        </h1>
+                    </div>
+
+
+                    <div class="text-right">
+                        <img alt="foto Intercambista" src="userimg.jpg" class="rounded-circle " width="180" height="180">
+                    </div>
+
+                    <form role="form"  >
+
+
+     
+                        <br/><br/><br/>
+                    
+
+                        <div class="form-group">
+                            <label for="InputNomeIntercambista">
+                                Nome do Intercambista
+                            </label>
+                            <input type="text" class="form-control" name= "nomeIntercambista" id="InputNomeIntercambista">
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="SelectSexoIntercambista">
+                                Sexo do Intercambista
+                            </label>
+                            <select class="form-control" name= "sexoIntercambista" id="SelectSexoIntercambista">
+                                <option selected> Escolha</option>
+                                <option value="F">Feminino</option>
+                                <option value="M">Masculino</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="InputNascIntercambista">
+                                Data de Nascimento do Intercambista
+                            </label>
+                            <input type="date" class="form-control" name="dataNascIntercambista" id="InputNascIntercambista">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="InputeEmailIntercambista">
+                                Email do Intercambista
+                            </label>
+                            <input type="email" class="form-control" name= "emailIntercambista" id="InputeEmailIntercambista">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="InputFoneIntercambista">
+                                Telefone do Intercambista
+                            </label>
+                            <input type="text" class="form-control" name= "foneIntercambista" id="InputFoneIntercambista">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="InputNumPassaporteIntercambista">
+                                Número do Passaporte do Intercambista
+                            </label>
+                            <input type="text" class="form-control" name= "numPassaporteIntercambista" id="InputNumPassaporteIntercambista">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="InputValidadePassaporteIntercambista">
+                                Validade do Passaporte do Intercambista
+                            </label>
+                            <input type="date" class="form-control" name="validadePassaporteIntercambista" id="InputValidadePassaporteIntercambista">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="InputNumVistoIntercambista">
+                                Número do Visto do Intercambista
+                            </label>
+                            <input type="text" class="form-control" name= "numVistoIntercambista" id="InputNumVistoIntercambista">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="InputValidadeVistoIntercambista">
+                                Validade do Visto do Intercambista
+                            </label>
+                            <input type="date" class="form-control" name="validadeVistoIntercambista" id="InputValidadeVistoIntercambista">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="InputNomeResponsavelOrigem">
+                                Nome do Pai/Mãe/Responsável de Origem do Intercambista
+                            </label>
+                            <input type="text" class="form-control" name= "nomeResponsavelOrigem" id="InputNomeResponsavelOrigem">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="InputeEmailResponsavelOrigem">
+                                Email do Pai/Mãe/Responsável de Origem do Intercambista
+                            </label>
+                            <input type="email" class="form-control" name= "emailResponsavelOrigem" id="InputeEmailResponsavelOrigem">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="InputFoneResponsavelOrigem">
+                                Telefone do Pai/Mãe/Responsável de Origem do Intercambista
+                            </label>
+                            <input type="text" class="form-control" name= "foneResponsavelOrigem" id="InputFoneResponsavelOrigem">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="InputEnderecoOrigemIntercambista">
+                                Endereço de Origem do Intercambista
+                            </label>
+                            <input type="text" class="form-control" name= "enderecoOrigemIntercambista" id="InputEnderecoOrigemIntercambista">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="SelectPaisOrigemIntercambista">
+                                País de origem do Intercambista
+                            </label>
+                            <select class="form-control" name= "paisOrigemIntercambista" id="SelectPaisOrigemIntercambista">
+                                <option selected> Escolha</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="SelectEstadoOrigemIntercambista">
+                                Estado de origem do Intercambista
+                            </label>
+                            <select class="form-control" name= "estadoOrigemIntercambista" id="SelectEstadoOrigemIntercambista">
+                                <option selected> Escolha</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="SelectCidadeOrigemIntercambista">
+                                Cidade de origem do Intercambista
+                            </label>
+                            <select class="form-control" name= "cidadeOrigemIntercambista" id="SelectCidadeOrigemIntercambista">
+                                <option selected> Escolha</option>
+                            </select>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="SelectAfiliacaoReligiosaIntercambista">
+                                Afiliação Religiosa do Intercambista
+                            </label>
+                            <select  class="form-control" name= "afiliacaoReligiosaIntercambista" id="SelectAfiliacaoReligiosaIntercambista">
+                                <option selected> Escolha</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="SelectIntercambistaFumante">
+                                Intercambista Fumante?
+                            </label>
+                            <select  class="form-control" name= "intercambistaFumante" id="SelectIntercambistaFumante">
+                                <option selected> Escolha</option>
+                                <option value="S">Sim</option>
+                                <option value="N">Não</option>
+                            </select>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="InputCopiaPassaporte">
+                                Cópia do Passaporte do Intercambista
+                            </label>
+                            <input type="file" class="form-control-file" name="copiaPassaporte" id="InputCopiaPassaporte">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="InputFotoIntercambista">
+                                Foto do Intercambista
+                            </label>
+                            <input type="file" class="form-control-file" name="termoCompromisso" id="InputFotoIntercambista">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="InputObservacoes">
+                                Observações
+                            </label>
+                            <textarea class="form-control md-textarea" name= "observacoes" id="InputObservacoes"></textarea>
+                        </div>
+
+
+                        <button type="submit" class="btn btn-info">
+                            Cadastrar
+                        </button>
+                    </form>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
