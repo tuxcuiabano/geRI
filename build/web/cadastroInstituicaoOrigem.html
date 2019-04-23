@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>GeRI - Sistema de Gerenciamento de Relações Internacionais</title>
+
+        <meta name="description" content="Sistema de Gerenciamento de Relações Internacionais">
+        <meta name="author" content="Pedro Clarindo da Silva Neto">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+
+
+    </head>
+    <body>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="navbar-toggler-icon"></span>
+                        </button> 
+
+                        <a class="navbar-brand" href="#">GeRI</a>
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                            <ul class="navbar-nav">
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="cadastroIntercambista.html">Cadastro de Intercambista </a>
+                                </li>
+
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="cadastroHostfamily.html">Cadastro de Host Family </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="cadastroEmbaixador.html">Cadastro de Embaixador </a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="cadastroInstituicaoOrigem.html">Cadastro da Instituição de Origem <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="cadastroCursoInstituicaoOrigem.html">Cadastro do Curso Instituição de Origem</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="cadastroCursoIfmt.html">Cadastro do Curso IFMT</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </nav>
+
+                    <div class="page-header">
+                        <h1>
+                            <small> Cadastro da Instituição de Origem </small>
+                        </h1>
+                    </div>
+
+
+                    <div class="text-right">
+                        <img alt="foto Intercambista" src="userimg.jpg" class="rounded-circle " width="180" height="180">
+                    </div>
+
+                    <form role="form">
+
+                        <div class="form-group">
+                            <label for="InputNomeInstituicaoOrigem">
+                                Nome da Instituição de Origem do Intercambista
+                            </label>
+                            <input type="text" class="form-control" name= "nomeInstituicaoOrigem" id="InputNomeInstituicaoOrigem">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="InputEnderecoInstituicaoOrigem">
+                                Endereço da Instituição de Origem do Intercambista
+                            </label>
+                            <input type="text" class="form-control" name= "enderecoInstituicaoOrigem" id="InputEnderecoInstituicaoOrigem">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="InputFoneInstituicaoOrigem">
+                                Telefone da Instituição de Origem do Intercambista
+                            </label>
+                            <input type="text" class="form-control" name= "foneInstituicaoOrigem" id="InputFoneInstituicaoOrigem">
+                        </div>
+                      
+                        <div class="form-group">
+                            <label for="InputeEmailInstituicaoOrigem">
+                                Email da Instituição de Origem do Intercambista
+                            </label>
+                            <input type="email" class="form-control" name= "emailEmbaixador" id="InputeEmailInstituicaoOrigem">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="InputContatoInstituicaoOrigem">
+                                Contato da Área Internacional de Instituição de Origem do Intercambista
+                            </label>
+                            <input type="text" class="form-control" name= "contatoInstituicaoOrigem" id="InputContatoInstituicaoOrigem">
+                        </div>
+
+   
+                        <button type="submit" class="btn btn-info">
+                            Cadastrar
+                        </button>
+                    </form>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
